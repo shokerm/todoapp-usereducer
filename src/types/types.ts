@@ -4,4 +4,10 @@ export type TodoType = {
   complete: boolean;
 };
 
-export type Action = { type: string; payload: { name?: string; id?: number } };
+export type Action = {
+  type: string;
+  payload: {
+    name?: string;
+    id?: number;
+  };
+};
